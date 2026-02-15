@@ -43,7 +43,7 @@ Documentation is exposed via Swagger UI. You can test the POST, GET, and DELETE 
 * **URL:** `http://localhost:8080/swagger-ui/index.html` 
 
 > **Evidence:**
-> ![Swagger Screenshot](./Swaggerui.png)
+> ![Swagger Screenshot](./SwaggerUi.png)
 
 ### 2. In-Memory Database (H2 Console)
 The H2 console is enabled to verify table creation and data persistence during runtime .
@@ -51,7 +51,7 @@ The H2 console is enabled to verify table creation and data persistence during r
 * **JDBC URL:** `jdbc:h2:mem:productdb`
 
 > **Evidence:**
-> ![H2 Console Screenshot](https://via.placeholder.com/800x400?text=Insert+H2+Console+Screenshot+Here)
+> ![H2 Console Screenshot](./H2Console.png)
 
 ### 3. Endpoint Specifications
 | Method | Endpoint | Description |
