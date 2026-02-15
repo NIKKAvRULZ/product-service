@@ -33,3 +33,44 @@ src/main/java/com/sliit/product_service/
 │   └── product.java            # Data Model (id, name, price) 
 └── repository/
     └── ProductRepository.java  # JPA Data Access 
+```
+---
+
+## 🚀 Execution & Evidence
+
+### 1. API Documentation (Swagger UI)
+Documentation is exposed via Swagger UI. You can test the POST, GET, and DELETE endpoints directly through the browser .
+* **URL:** `http://localhost:8080/swagger-ui/index.html` 
+
+> **Evidence:**
+> ![Swagger Screenshot](https://via.placeholder.com/800x400?text=Insert+Swagger+UI+Screenshot+Here)
+
+### 2. In-Memory Database (H2 Console)
+The H2 console is enabled to verify table creation and data persistence during runtime .
+* **URL:** `http://localhost:8080/h2-console` 
+* **JDBC URL:** `jdbc:h2:mem:productdb`
+
+> **Evidence:**
+> ![H2 Console Screenshot](https://via.placeholder.com/800x400?text=Insert+H2+Console+Screenshot+Here)
+
+### 3. Endpoint Specifications
+| Method | Endpoint | Description |
+| :--- | :--- | :--- |
+| **POST** | `/api/products` | Create a new Product |
+| **GET** | `/api/products` | Retrieve all Products |
+| **GET** | `/api/products/{id}` | Retrieve Product by ID |
+| **DELETE** | `/api/products/{id}` | Delete a Product |
+
+---
+
+## ✍️ Student Information
+* **Name:** Nithika Perera
+* **IT Number:** IT22061348
+* **Module:** Current Trends in Software Engineering (SE4010) 
+* **Institute:** SLIIT - Faculty of Computing 
+
+---
+
+<p align="center">
+  <b>Expected Outcome:</b> Successfully built a microservice with REST APIs, H2 database, and Swagger documentation .
+</p>
