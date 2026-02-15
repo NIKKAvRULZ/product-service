@@ -43,7 +43,7 @@ Documentation is exposed via Swagger UI. You can test the POST, GET, and DELETE 
 * **URL:** `http://localhost:8080/swagger-ui/index.html` 
 
 > **Evidence:**
-> ![Swagger Screenshot](https://via.placeholder.com/800x400?text=Insert+Swagger+UI+Screenshot+Here)
+> ![Swagger Screenshot]("/H2 console.jpg")
 
 ### 2. In-Memory Database (H2 Console)
 The H2 console is enabled to verify table creation and data persistence during runtime .
